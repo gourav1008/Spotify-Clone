@@ -1,0 +1,51 @@
+.border{
+    border: 2px solid rgb(255, 76, 76);
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-grey{
+    background-color: #121212;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 10px;
+}
+.m-1{
+    margin: 10px;
+}
+.p-1{
+    padding: 10px;
+}
+.gap{
+    gap: 5px;
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #333; /* Dark color for the thumb */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #222; /* Dark color for the track */
+  }
+  
